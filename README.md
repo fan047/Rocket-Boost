@@ -2,6 +2,13 @@
 
 一个使用 Unity 制作的 3D 火箭闯关小游戏。操控火箭从发射台起飞、绕开地形，并抵达终点平台进入下一关。
 
+## 游戏特色
+
+- 四个连续关卡：`Over`、`Under`、`Through`、`Gap`。
+- 火箭主推进、左右转向、推进音效与粒子特效。
+- 发射台、终点平台、岩石地形与移动障碍物。
+- URP 后期处理：色调映射、泛光与暗角效果。
+
 ## 开发环境
 
 - Unity `6000.4.3f1`（Unity 6）
@@ -16,11 +23,12 @@
 3. 打开 `Assets/Scenes/Over.unity`。
 4. 点击 Unity 顶部的播放按钮。
 
-构建时，Build Settings 已按以下顺序配置三个关卡：
+构建时，Build Settings 已按以下顺序配置四个关卡：
 
 1. `Over`
 2. `Under`
 3. `Through`
+4. `Gap`
 
 ## 操作
 
@@ -28,6 +36,7 @@
 - `←`、`→` / 手柄左摇杆：旋转火箭。
 - `L`：调试时直接进入下一关。
 - `P`：调试时开关碰撞结果判定。
+- `Esc`：退出已打包的游戏程序。
 
 > `P` 只会禁用“碰撞后坠毁或过关”的脚本逻辑；火箭的物理 Collider 仍会阻挡墙体和地面。
 
@@ -39,8 +48,8 @@ Assets/
 ├── Materials/          # 关卡材质和天空盒
 ├── Particles/          # 引擎、爆炸与成功特效
 ├── Prefabs/            # 火箭、发射台、终点与地形预制体
-├── Scenes/             # Over、Under、Through 三个关卡
-├── Scripts/            # 火箭移动与碰撞处理
+├── Scenes/             # Over、Under、Through、Gap 四个关卡
+├── Scripts/            # 火箭移动、碰撞、移动障碍物与退出程序
 └── Settings/           # Input System 配置
 ```
 
