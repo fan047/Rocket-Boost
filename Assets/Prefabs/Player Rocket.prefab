@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8542998240175722548}
   - component: {fileID: 1627979283253638919}
   - component: {fileID: 2905226691434954648}
+  - component: {fileID: 1437967233533830458}
   - component: {fileID: 6923417351277617376}
   - component: {fileID: 388778806950992103}
   - component: {fileID: 5036069305325098076}
@@ -161,6 +162,18 @@ MonoBehaviour:
   crashSFX: {fileID: 8300000, guid: fbede7e519b37604ba93b387a851e3b2, type: 3}
   successParticles: {fileID: 7680525608659689557}
   crashParticles: {fileID: 3854551977277739727}
+--- !u!114 &1437967233533830458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679817140473949488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11e37c2928a7b949847d0d976201f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuitApplication
 --- !u!54 &6923417351277617376
 Rigidbody:
   m_ObjectHideFlags: 0
