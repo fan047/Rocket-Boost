@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     [SerializeField] ParticleSystem mainBoosterParticles;
     [SerializeField] ParticleSystem leftBoosterParticles;
     [SerializeField] ParticleSystem rightBoosterParticles;
+    //[SerializeField] float maxRotationAngle = 45f;
 
     Rigidbody rb;
     AudioSource audioSource;
